@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/ws/rs/javax.ws.rs-api/2.0-m10/javax.ws.rs-api-2.0-m10.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/allan/flight/flight-persistence/1.0-SNAPSHOT/flight-persistence-1.0-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <classpathentry kind="var" path="M2_REPO/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/olingo/olingo-odata2-core/2.0.3/olingo-odata2-core-2.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/olingo/olingo-odata2-api/2.0.3/olingo-odata2-api-2.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/olingo/olingo-odata2-jpa-processor-api/2.0.3/olingo-odata2-jpa-processor-api-2.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/persistence/javax.persistence/2.0.5/javax.persistence-2.0.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/olingo/olingo-odata2-jpa-processor-core/2.0.3/olingo-odata2-jpa-processor-core-2.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/olingo/olingo-odata2-api-annotation/2.0.3/olingo-odata2-api-annotation-2.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/olingo/olingo-odata2-jpa-processor-ref/2.0.3/olingo-odata2-jpa-processor-ref-2.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/persistence/eclipselink/2.5.1/eclipselink-2.5.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar"/>
+</classpath>

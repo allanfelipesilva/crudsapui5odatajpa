@@ -1,0 +1,36 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="flightweb.index" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Flight Web">
+		<headerContent>
+			<Button icon="sap-icon://add" press="onAdd" />
+		</headerContent>
+		<Table id="idProductsTable" inset="false" items="{/Flights}"
+			itemPress="rowSelected">
+			<headerToolbar>
+				<Toolbar>
+					<Label text="Flights"></Label>
+				</Toolbar>
+			</headerToolbar>
+			<columns>
+				<Column>
+					<Text text="Id" />
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true">
+					<Text text="From" />
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Right">
+					<Text text="To" />
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem type="Detail" detailPress="onDetailPress">
+					<cells>
+						<ObjectIdentifier title="{Id}" />
+						<Text text="{Departure}" />
+						<Text text="{Destination}" />
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+	</Page>
+</core:View>
